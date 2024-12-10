@@ -349,7 +349,7 @@ def main():
                 
                     BLAKE2S_encryption(password, salt, salt_exists)
                     break
-    
+    # ERROR HANDLING 
     # if the user inputs something invalid        
     except ValueError:
         
